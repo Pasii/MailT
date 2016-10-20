@@ -46,7 +46,7 @@ public class EmailListener {
 		service = new ExchangeService(ExchangeVersion.Exchange2010_SP1);
 		service.setUrl(new URI(
 				"https://outlook.office365.com/ews/Exchange.asmx"));
-		ExchangeCredentials credentials = new WebCredentials("padalwis@virtusa.com", "7ujm2wsx!@", "");
+		ExchangeCredentials credentials = new WebCredentials("padalwis@gmail.com", "7ujm2wsx!@", "");
 		service.setCredentials(credentials);
 		
 		
@@ -61,7 +61,7 @@ public class EmailListener {
 		service = new ExchangeService(ExchangeVersion.Exchange2010_SP1);
 		service.setUrl(new URI(
 				"https://outlook.office365.com/ews/Exchange.asmx"));
-		ExchangeCredentials credentials = new WebCredentials("padalwis@virtusa.com", "7ujm2wsx!@", "");
+		ExchangeCredentials credentials = new WebCredentials("padalwis@gmail.com", "7ujm2wsx!@", "");
 		service.setCredentials(credentials);
 		
 		FolderId fid = new FolderId(WellKnownFolderName.Inbox);

@@ -32,12 +32,12 @@ public class SendEmail {
 		SendEmail setupEmail = new SendEmail();
 	
 	//	attachments.add("C:\\Users\\tgherath\\Desktop\\hello gihan.txt");
-		String emailBody="<table style=\"height: 91px;\" width=\"562\"> <tbody> <tr style=\"background-color: #8585ad;\"> <td><img style=\"float: left;\" id=\"1\" src=\"cid:wso2header\" alt=\"interactive connection\" width=\"100\" height=\"100\" /><img style=\"float: left;\" id=\"1\" src=\"cid:wso2footer\" alt=\"interactive connection\" width=\"100\" height=\"100\" /></td> <td> <p style=\"font-size: 30px;\"><span style=\"color: #ffffff;\"><strong>Automated BOT</strong></span></p> </td> </tr> </tbody> </table> <table style=\"height: 21px; background-color: #1a75ff;\" width=\"561\"> <tbody> <tr> <td style=\"text-align: center;\"><strong><span style=\"color: #ffffff;\">WSO2 Online Support System&nbsp;</span></strong></td> </tr> </tbody> </table> <table style=\"height: 124px;\" width=\"564\"> <thead> <tr style=\"background-color: #0052cc;\"> <td> <p><strong><span style=\"color: #ffffff;\">&nbsp;Issue Name</span></strong></p> </td> <td> <p><strong><span style=\"color: #ffffff;\">&nbsp;Status</span></strong></p> </td> </tr> </thead> <tbody> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td><span style=\"color: #ffffff;\">This leaves matched</span></td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> </tbody> </table> <p>Copyright @ 2016 Virtusa corporation. All right reserved</p> <p><strong>&nbsp;</strong></p>";
-		String from="pdeeyagahage@virtusapolaris.com";
-		String username="pdeeyagahage@virtusapolaris.com";
+		String emailBody="<table style=\"height: 91px;\" width=\"562\"> <tbody> <tr style=\"background-color: #8585ad;\"> <td><img style=\"float: left;\" id=\"1\" src=\"cid:wso2header\" alt=\"interactive connection\" width=\"100\" height=\"100\" /><img style=\"float: left;\" id=\"1\" src=\"cid:wso2footer\" alt=\"interactive connection\" width=\"100\" height=\"100\" /></td> <td> <p style=\"font-size: 30px;\"><span style=\"color: #ffffff;\"><strong>Automated BOT</strong></span></p> </td> </tr> </tbody> </table> <table style=\"height: 21px; background-color: #1a75ff;\" width=\"561\"> <tbody> <tr> <td style=\"text-align: center;\"><strong><span style=\"color: #ffffff;\">WSO2 Online Support System&nbsp;</span></strong></td> </tr> </tbody> </table> <table style=\"height: 124px;\" width=\"564\"> <thead> <tr style=\"background-color: #0052cc;\"> <td> <p><strong><span style=\"color: #ffffff;\">&nbsp;Issue Name</span></strong></p> </td> <td> <p><strong><span style=\"color: #ffffff;\">&nbsp;Status</span></strong></p> </td> </tr> </thead> <tbody> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td><span style=\"color: #ffffff;\">This leaves matched</span></td> </tr> <tr style=\"background-color: #8585ad;\"> <td>&nbsp;</td> <td>&nbsp;</td> </tr> </tbody> </table> <p>Copyright @ 2016  corporation. All right reserved</p> <p><strong>&nbsp;</strong></p>";
+		String from="pdeeyagahage@gmail.com";
+		String username="pdeeyagahage@gmail.com";
 		String password="login123$";
 		String URI="https://outlook.office365.com/ews/Exchange.asmx";
-		String recipients="malperera@virtusapolaris.com";
+		String recipients="malperera@gmail.com";
 		String subject ="Hello malee part 3";
 		String attachments="C:/Users/pdeeyagahage/Downloads/helloWorld.txt";
 		//String footer="C:/Users/tgherath/Desktop/wso2.png";
@@ -98,7 +98,7 @@ public class SendEmail {
 			e.printStackTrace();
 
 		}
-		// cDushmantha@virtusa.com
+		
 	}
 	
 	/*public void sendEmail(String body, String subject, String recipients,
@@ -144,7 +144,7 @@ public class SendEmail {
 			e.printStackTrace();
 
 		}
-		// cDushmantha@virtusa.com
+		
 	}*/
 
 	public ExchangeService getService() {
